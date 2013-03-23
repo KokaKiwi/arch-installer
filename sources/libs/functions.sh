@@ -31,9 +31,9 @@ ask() {
 
     read -p "$QUESTION $CHOICE_MSG: " result
     case $result in
-        [Yy]|[Yy][Ee][Ss] ) echo "yes"; break;;
-        [Nn]|[Nn][Oo] ) echo "no"; break;;
-        * ) echo "$DEFAULT"; break;;
+        [Yy]|[Yy][Ee][Ss] ) echo "yes";;
+        [Nn]|[Nn][Oo] ) echo "no";;
+        * ) echo "$DEFAULT";;
     esac
 }
 

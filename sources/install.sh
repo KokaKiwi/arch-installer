@@ -67,18 +67,18 @@ sudo -v
 
 # ===== INSTALL =====
 
-msg "Creating directories..."
+echo "Creating directories..."
 rm -rf "$ARCH_MINI"
 mkdir "$ARCH_MINI"
 cd "$ARCH_MINI"
 
-msg "Downloading minimal system file..."
+echo "Downloading minimal system file..."
 download "http://mir.archlinux.fr/~tuxce/chroot/archlinux.chroot.$ARCHI.tgz"
 tar -zxf "archlinux.chroot.$ARCHI.tgz"
 rm -rf archlinux.chroot.$ARCHI.tgz
 cd "$INSTALL_DIR"
 
-msg "Installing minimal system..."
+echo "Installing minimal system..."
 sudo cp /etc/resolv.conf "$ARCH_MINI/etc/resolv.conf"
 mount_init "$ARCH_MINI"
 

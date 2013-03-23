@@ -1,15 +1,15 @@
 #!/bin/sh
 # This script was generated using Makeself 2.1.5
 
-CRCsum="1761233743"
-MD5="16a6f16b355244439c5241d5421c3abe"
+CRCsum="4185904384"
+MD5="4bf5b94f0fb4bae620b3da738de78b0c"
 TMPROOT=${TMPDIR:=/tmp}
 
 label="arch linux installer"
 script="./install.sh"
 scriptargs=""
 targetdir="build"
-filesizes="1715"
+filesizes="1713"
 keep=y
 
 print_cmd_arg=""
@@ -158,7 +158,7 @@ do
 	echo Target directory: "$targetdir"
 	echo Uncompressed size: 36 KB
 	echo Compression: gzip
-	echo Date of packaging: Sat Mar 23 17:54:10 CET 2013
+	echo Date of packaging: Sat Mar 23 17:58:54 CET 2013
 	echo Built with Makeself version 2.1.5 on linux-gnu
 	echo Build command was: "/usr/bin/makeself \\
     \"--notemp\" \\
@@ -400,9 +400,11 @@ if test "$keep" = n; then
     /bin/rm -rf $tmpdir
 fi
 eval $finish; exit $res
-‹ 2ÞMQíZYoâHæÙ¿¢Æá!D€1§”»Ê’AÊÀnÒŽ˜c‚…ä#Éf~ûVwÛÆ6dvú{ Üut×ÑåîJŠRfï(!µZ¦T©”Êå*>7êÕ²LÇdä²\®TjR½œ)Ér½QÊ@-s ø®§8 ™™æ<èÚè~Ÿ¶Ð=MÊ%¹‘ùuP”Ü•ëifq"½£øWª•:ÿã_*fš2Ñœ}Ä¿^­îŽ½–ŠM–å”xü÷Ž£ÒX·$w&ªâÁÇíÞ¥€vÚ v,taèÖ=9R,Š¡g8~ýoècw¿‡€Ÿ¯ÿå:’yý?\ü§¾¥zºm¹Ew¶—ø¿PÿË•êfýoðúGÐ$€ÁmçºÏ~ÂÂ±Í…wœƒ' ° 1+Ã0[¾;Ç\ßð(YŸÂÄe–‰ÐÄîÎÀ›iå `/•lY¤#S]ˆ’Âs8õh¢;Ñôø»™=f²‘ªÉ1ŠÁð#®©>ÅGŠþ´û·^·I”Ð‘‹öåùàú¶I×C­	HhN`OÚ Hv¥¹‘Qô[U\B ¯E†_Ww“a[»öÝ;ÈAës¯Ój¾ô¯šâð«dÝ‰ggk®…ø1ìÙÌ+©›`>yI›æ*ªŠfèÈ®ÅR±e¦°×,až'Þ8ƒ1Î2ÁÆkÙ[XO"rƒ$5…¤Š¢Î•{-
-/ÙÈõq
-ÙBö­­KÂ †‰ýÝ2leÑ[Ålòc *>A¡‡kÁ4¡ð ´0/¦uate2,ltôdŸâ³tr;²‘ºUÌêbÜ§Ôø9ˆù‚àÛÑÉ·£Ñ“\âqº…%S¼‘¯qLuC³SÃ}5Æ¥ŸT*·•›Dc'Ä££#øÔ¾ê`…zÇÄ­"d–Wtµ»¯i
-ÊG1ÿÐ¡•Ã¶4Œ?æ½ðþ7uK7c€qÿ¯Uyÿçàñ—K#¬˜¦b8þr£‘>ÿ•+e~þ{÷ /^¥.í°,‚’iyP(¨Š:Óð5GŸ¥Å‘èˆÄ¥Åü
-ýÓä®\C·ü%ï$¼·ý¿¯à«õ¿QÝØÿrïÿwÔÿ³ÍT	à›÷WÙÿ:ó>?oÛÿ5¹šÞÿ•F‰÷½ÿoz½ÛÑEçï„¤E€¼üã‹ÞÄ²¥\NÈåÖÐÇôzŠ°&âúŠ[„,Žôúu˜>÷ÛÐêu/;WaŸ©Óíßž__¿>ëùMësY|:T0sB¢q—ƒn‹t2b,ÝòFªmMõûè¦ÎêZs¸îµÎ¯ƒEnÎi3$Fcbáq×¥©ží¬¢›ç)dc†ÄeÎuÁ6)ˆ2Ä¦Ñ—N·³!ÁþÜ’š)”èí§Hfz¾£·ZhñeQ·‰ñ¾VÖwµÑD{ÐUu¶H»&Ù+H™KyãmÔÔŒPÑfG¯ùvÐ¦Šiû.tÔºéèúè8>´pl•4ÿèq.†2à÷V:z•Òñ›Îéïš” YŸÈdyT˜G¡g"e]¿}îƒÛí¹¼ncnÉÒÀŒgLNø>ÓvoS4›`[ý§)èfŒr®™ Kž¹)˜I¢æ2DÌäT/¢Ã¢ÔÁÙwâ Ïóz"Q~Ç™„·çZÒîTZÅM§)œ ïò Ë×cmyJSBr'Ê_¹Xc‹-îÆ;fÜhš¥æ×í¨ ç©kIó7^uÖn`¾jÙ–‡÷â!æËNo¼¥îA‰*b»}N²ð°N¼ jaÖ™î=ªÆÊé‘sZ~=8¥9&^Ò¦ Æk9§þŠ©“ä3Óz´G‰â°†•‰4çèaÄ™ç-N%¼M8E’HôŠWœ:ÒÏ_ªš¤ÎÛö¤5‰Y‰*z÷¢@Û³K\ï‹lQ/ð0ƒ5™™;Ò&-¢ÆP_«4O•Íµ‡"‰eÜ9iš+])'þlÅýB‘¥%w]Zªœm&®{9bÌ4Ô´ÕQéíü)}=Ïãë:x|Np?‘âG« :*ïøVKE£ÏóÄñÏ[\@×µÊq4:)D×M~‹ H4	i´>ŽFñx‘+ö•¢Kk
-TÑ<ID	èég¬ žÝÒ˜po™Äß™	ÛüþÛÍ¦òº’L[×—Ò³Í$L[]’<€;™ü]iÀoYÿ/þyÁ×ª P  
+‹ NßMQíZëSâHçsþŠÞÈ±€@xUérW¬¢K•w¢U·åZTRæAåá‚žû·_ÏL&Ô½;,kk~€Ìt÷L?¦3ÝZVr;GÑj4r•Z­¢ªu|n5ëj•ŽGÈUÕªZ«5Zj3W©V›­z¹7@èš›Þ½iŒ¦ÛèŒ¹úl¤Vª­Ü¯ƒ²â/ýÀ°Ëcåù¿V¯«ÂÿoìÿJe43´±áíÂÿÍz}»ÿ›ŒÿÕj#áÿcïƒrk:Š?“$]àãÇîàTB=]{šÆ²Lg
+QŒ”Ë²Dæs¿Îù·Ì[·—€ŸÏÿjSmˆüÿ†þŸ„Ž˜®ã—ýÙNüÿLþWkje-ÿ7›"ÿ¿¤=hÀÕeï|È~KÒÜsíy°_€G	^ 49_…ë¼zs2Žù¡Ðis× /òlH†6>ÈpsÁÌp({©äU™ŽLL‰Œ8¥§xéÑØô’åñw;¿Ï&Èd*¦ÀÜk#À^$>Ryš—úóª;¼ìúm"„ŽœtO;Wç—mº¯DªM4…êDúdJx—†Ÿ(E¿uÍ7  æŠåúëòæoòqÝ5n®‡þàøó wÜ}žµåë¯Šs#­ú2àÇõÀ]#^*ýñÁsÒ_Ó¥Œ7c{@~Å–ñ-S…¼¤	³<±Æ30"ÇÍn<r[lu~×$*4ýN›‰'É™-éÈéÐÙH° UB0v¿;–«“yËÕ1pBÏZÅ‚ŽOPà&ð¼óÌ--à¤Î-™Œ‡¹ÜõÀDÃ@þ1š|RŽ`ì&ÊQÊySæÍGµþQ Îßö¾í­R«(--˜àµÐä11-ÃÑlÐ-n…ü¤\…ÔÄ['@ÞÛÛƒOÝ³†L,pLÞÈBVyAV·ò’¤(SðàìC„&	×1ÐgâF÷³ïÛtL[³vØ øõ£.ú?oîÿje„iÔÖœ7öµÕÊÞÿÔš¸ÿ½“úÈ[¢÷«O{ ,J äb;”Jº¦Ï|÷Ñgå^ó:¢0Be~7…ÒpÉ$ùKß2p!:	ïíüïªøbþoÕ×Î¿ªŠóÿŽú®Iâðþ*çßdnÞEãçuç¿Q­7³÷¿V¥%Îÿž|3c¸.G'½,I“ þ”°üßÇW;-Ðò•BA’HÍk™·´êYXqUù–!#­Ê’Ó§Î°Çƒþiï,î4õúÃËÎùùË«v.Ž?÷$¤C%» ¥ZWpzÕ?&½®‡e:ÁHw‰9M
+x–ÙÚ+Àùà¸smêê¢CÛ!Ü¼Ì±Å"Ü—¡®·L
+ÒCÈsŠð<OŸAôŠM3"Ñiô¥×ï­q°?¸dVŠ9†_‡Y›Aè,ç¿-j6™ïlåCß{S7Xo‹4lÒ-„Œº”–¯¿Qn”5bAë=½öëA{-¶¢»ÐP«¶£Ž] ãPúÊÜsuÒþ£?äM¸J€ßçÑªt¿éšá¶EÙ é#Y¬ˆ‹ÈôD˜’¨v/ ×ÿãêrs,¯™"‡´0ùˆ)Hßg¦eÐ¦ÎCfŽú&:Vÿi	z“˜k§¦•Àž4Œ$YŠc	br¯—Ñ`IèàêšòÞèÍT üŽ+I¯µ´Þ™°âU§!œšÞf¯ûÆâ†„âµ¿
+\¿‹mî”n·¬¸ÖKË¬+¯ºTQÌSÓ’ö/ŸuVf`¶:v +b!fÇÍ¼…@…
+b§mN²t¿
+¼ÈkqÔÙþEcæÈM-v¿ÝÓ<Ë´	È|®±ï¨½ø!}œ~fRO¢®)ç°(3‘ž] î¬‚<‚ù¡‚õ„W&D‹¼òÄS~áB7}æ¹n ¬¦Ø@™¥¨r0}%Úµ}Xà~Ÿ%‹”z††)”ÊÉL%îR›Öˆ*Cm­ÏA1]ñßµîËÄ—¼q²s2—º2FüÙŒû…"[KŸ(ºµL:[\™{9 bÄÔÕ´ÙŸÌÒúü1[ ñu=>¥¨Iò£YUôB§ˆ©¢ˆF(Þ¢Í‹ÄðOL@÷‘tÐq4¹)$§¿qâM25Z]H<KÅ½G•$Ä²’"Q4NR^‚äþÛ¹1à^³H¸56Ù!þÇ›u3àÌËVHmÜ_FÎ&7m4A†7± 2l%
+·…¨³þOü²0 P  
