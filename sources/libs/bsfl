@@ -100,7 +100,7 @@ init () {
     START_WATCH=""
 }
 
- defined {
+ defined() {
     [[ ${!1-X} == ${!1-Y} ]]
 }
 
@@ -108,7 +108,7 @@ init () {
 # returns 0 if a variable is defined (set) and value's length > 0
 # returns 1 otherwise
 #
- has_value {
+ has_value() {
     if defined $1; then
         if [[ -n ${!1} ]]; then
             return 0
@@ -121,7 +121,7 @@ init () {
 # returns 0 if a directory exists
 # returns 1 otherwise
 #
- directory_exists {
+ directory_exists() {
     if [[ -d "$1" ]]; then
         return 0
     fi
@@ -132,7 +132,7 @@ init () {
 # returns 0 if a (regular) file exists
 # returns 1 otherwise
 #
- file_exists {
+ file_exists() {
     if [[ -f "$1" ]]; then
         return 0
     fi
@@ -142,21 +142,21 @@ init () {
 #
 # returns lowercase string
 #
- tolower {
+ tolower() {
     echo "$1" | tr '[:upper:]' '[:lower:]'
 }
 
 #
 # returns uppercase string
 #
- toupper {
+ toupper() {
     echo "$1" | tr '[:lower:]' '[:upper:]'
 }
 
 #
 # Only returns the first part of a string, delimited by tabs or spaces
 #
- trim {
+ trim() {
     echo $1
 }
 
@@ -707,7 +707,7 @@ stop_watch () {
 # Prints an error message ($2) to stderr and exits with the return code ($1).
 # The message is also logged.
 #
- die {
+ die() {
     local -r err_code="$1"
     local -r err_msg="$2"
     local -r err_caller="${3:-$(caller 0)}"
@@ -725,7 +725,7 @@ stop_watch () {
 #
 # Die if error code is false.
 #
- die_if_false {
+ die_if_false() {
     local -r err_code=$1
     local -r err_msg=$2
     local -r err_caller=$(caller 0)
@@ -739,7 +739,7 @@ stop_watch () {
 #
 # Dies when error code is true
 #
- die_if_true {
+ die_if_true() {
     local -r err_code=$1
     local -r err_msg=$2
     local -r err_caller=$(caller 0)
