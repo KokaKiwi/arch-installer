@@ -1,15 +1,15 @@
 #!/bin/sh
 # This script was generated using Makeself 2.1.5
 
-CRCsum="4185904384"
-MD5="4bf5b94f0fb4bae620b3da738de78b0c"
+CRCsum="1872694442"
+MD5="34f801d91edf8c3cc6d7e3683f47df54"
 TMPROOT=${TMPDIR:=/tmp}
 
 label="arch linux installer"
 script="./install.sh"
 scriptargs=""
 targetdir="build"
-filesizes="1713"
+filesizes="1794"
 keep=y
 
 print_cmd_arg=""
@@ -158,7 +158,7 @@ do
 	echo Target directory: "$targetdir"
 	echo Uncompressed size: 36 KB
 	echo Compression: gzip
-	echo Date of packaging: Sat Mar 23 17:58:54 CET 2013
+	echo Date of packaging: Sat Mar 23 18:13:01 CET 2013
 	echo Built with Makeself version 2.1.5 on linux-gnu
 	echo Build command was: "/usr/bin/makeself \\
     \"--notemp\" \\
@@ -400,11 +400,12 @@ if test "$keep" = n; then
     /bin/rm -rf $tmpdir
 fi
 eval $finish; exit $res
-‹ NßMQíZëSâHçsþŠÞÈ±€@xUérW¬¢K•w¢U·åZTRæAåá‚žû·_ÏL&Ô½;,kk~€Ìt÷L?¦3ÝZVr;GÑj4r•Z­¢ªu|n5ëj•ŽGÈUÕªZ«5Zj3W©V›­z¹7@èš›Þ½iŒ¦ÛèŒ¹úl¤Vª­Ü¯ƒ²â/ýÀ°Ëcåù¿V¯«ÂÿoìÿJe43´±áíÂÿÍz}»ÿ›ŒÿÕj#áÿcïƒrk:Š?“$]àãÇîàTB=]{šÆ²Lg
-QŒ”Ë²Dæs¿Îù·Ì[·—€ŸÏÿjSmˆüÿ†þŸ„Ž˜®ã—ýÙNüÿLþWkje-ÿ7›"ÿ¿¤=hÀÕeï|È~KÒÜsíy°_€G	^ 49_…ë¼zs2Žù¡Ðis× /òlH†6>ÈpsÁÌp({©äU™ŽLL‰Œ8¥§xéÑØô’åñw;¿Ï&Èd*¦ÀÜk#À^$>Ryš—úóª;¼ìúm"„ŽœtO;Wç—mº¯DªM4…êDúdJx—†Ÿ(E¿uÍ7  æŠåúëòæoòqÝ5n®‡þàøó wÜ}žµåë¯Šs#­ú2àÇõÀ]#^*ýñÁsÒ_Ó¥Œ7c{@~Å–ñ-S…¼¤	³<±Æ30"ÇÍn<r[lu~×$*4ýN›‰'É™-éÈéÐÙH° UB0v¿;–«“yËÕ1pBÏZÅ‚ŽOPà&ð¼óÌ--à¤Î-™Œ‡¹ÜõÀDÃ@þ1š|RŽ`ì&ÊQÊySæÍGµþQ Îßö¾í­R«(--˜àµÐä11-ÃÑlÐ-n…ü¤\…ÔÄ['@ÞÛÛƒOÝ³†L,pLÞÈBVyAV·ò’¤(SðàìC„&	×1ÐgâF÷³ïÛtL[³vØ øõ£.ú?oîÿje„iÔÖœ7öµÕÊÞÿÔš¸ÿ½“úÈ[¢÷«O{ ,J äb;”Jº¦Ï|÷Ñgå^ó:¢0Be~7…ÒpÉ$ùKß2p!:	ïíüïªøbþoÕ×Î¿ªŠóÿŽú®Iâðþ*çßdnÞEãçuç¿Q­7³÷¿V¥%Îÿž|3c¸.G'½,I“ þ”°üßÇW;-Ðò•BA’HÍk™·´êYXqUù–!#­Ê’Ó§Î°Çƒþiï,î4õúÃËÎùùË«v.Ž?÷$¤C%» ¥ZWpzÕ?&½®‡e:ÁHw‰9M
-x–ÙÚ+Àùà¸smêê¢CÛ!Ü¼Ì±Å"Ü—¡®·L
-ÒCÈsŠð<OŸAôŠM3"Ñiô¥×ï­q°?¸dVŠ9†_‡Y›Aè,ç¿-j6™ïlåCß{S7Xo‹4lÒ-„Œº”–¯¿Qn”5bAë=½öëA{-¶¢»ÐP«¶£Ž] ãPúÊÜsuÒþ£?äM¸J€ßçÑªt¿éšá¶EÙ é#Y¬ˆ‹ÈôD˜’¨v/ ×ÿãêrs,¯™"‡´0ùˆ)Hßg¦eÐ¦ÎCfŽú&:Vÿi	z“˜k§¦•Àž4Œ$YŠc	br¯—Ñ`IèàêšòÞèÍT üŽ+I¯µ´Þ™°âU§!œšÞf¯ûÆâ†„âµ¿
-\¿‹mî”n·¬¸ÖKË¬+¯ºTQÌSÓ’ö/ŸuVf`¶:v +b!fÇÍ¼…@…
-b§mN²t¿
-¼ÈkqÔÙþEcæÈM-v¿ÝÓ<Ë´	È|®±ï¨½ø!}œ~fRO¢®)ç°(3‘ž] î¬‚<‚ù¡‚õ„W&D‹¼òÄS~áB7}æ¹n ¬¦Ø@™¥¨r0}%Úµ}Xà~Ÿ%‹”z††)”ÊÉL%îR›Öˆ*Cm­ÏA1]ñßµîËÄ—¼q²s2—º2FüÙŒû…"[KŸ(ºµL:[\™{9 bÄÔÕ´ÙŸÌÒúü1[ ñu=>¥¨Iò£YUôB§ˆ©¢ˆF(Þ¢Í‹ÄðOL@÷‘tÐq4¹)$§¿qâM25Z]H<KÅ½G•$Ä²’"Q4NR^‚äþÛ¹1à^³H¸56Ù!þÇ›u3àÌËVHmÜ_FÎ&7m4A†7± 2l%
-·…¨³þOü²0 P  
+‹ âMQíZmSâHæs~EoäƒX@¬Òå®\Ä]ªîD«nËµ¨I*/.è¹¿ýzfòˆ{Wx{{ó|@2ÓÝ3ÓýLg¦±ª¶qÐhÔz]­Õöñù ¹_ÓX{ˆ‚VÓjõz?PNÓšÍF…7@àùºP˜÷Á$Ã»urdfúÄ˜kªvPøyPU¼…ç“iu¤ü@ñ¯ï×ë"þoUNˆ>"î6âßÜß_MÕrño _
+ Šøo;ï”[ÓV¼‰$ºïßwú§RØx«c3®Ù¹k£›,Ë´ï äKµ*KT¶ ðßÞÿ–yëm÷ðýù¿ÖÔš"ÿ¿aüÇmø¦c{Uo²•ø¿ÿkûµ|üZSùÿ- í@‹®.»gþ]’f®3ù»%x’ áâ± *3‹\k7‡ c›X>ë6Çpò¼È›dháƒ7GàOˆÍ$(ø‹¤X“YËØ”R¡¦ô=™n<<~owyƒÌÌ”¸Ýâø‘6‰Ìž1!Æ½1ÅÖØl‹¿BåÎuy–sÓ-š"êëÞ}¬úûUgpÙí÷Zt¬å¤sz|uvÙbëŠÍ3o„]èŽÐù¡bÝñb§°¿†îˆ€™¨\^ÜüI?®;äæzàÝ@	ÚŸúÝvgx>øØ’¯?+ö|t”(ôlTÀë¾³$¼Pzá½—¬O7¤"@1QËqƒ/…7lZ	õÆ+àB¶“ŸxöÈëéYSVéÆ½~GâHÒ=_1ÇPÜ£Ý½R`N4*0r¾Ú–£',²‰¸VÂŸ ÒÇIàÆ=<'Í,ÝOYY”Ù\‡‡ÜqÁDÇ@ñ)ì|VöŽ`äÄ‹c”‹¦œv[õ·¤œ@ñegïËÎRë^)ó˜°´2ç†—¨™ÆØ´ˆ­O	nA<²¯L«´Rš†amÈ;;;ð¡ó±‹”‰ì¶É+Uè(luz'›,…™&”AX’ql‚1ûÿÿ¦¦mNuk‹€¿qÿoÔEýçÍã¯©CLƒSÝ~ãøkùó_­v ÎÿÚý?sçšõ!|?zìÞÏY”©íC¥bèxÌÂw{VtWa-
+Tf÷wP,¸%oáY¦ÌEõàGÛÿÛ* nÌÿû¥ý¯ibÿÿõ?±Kòýoò4¿ÂÏëö£©æßÿõµ&öÿî¶Õ¥‹~ÿrxÒ½À«½äãkú*x}ßÅW;»`ÕRI’èÕ2oÙ­5RáeÄäæZ…"¶HìV×˜>:Ðî÷N»£JS·7¸<>;Û<êñEûSEÖT™–¤Lé
+N¯zmZ‹HÕ°LÛŽ=6ïâ8?Ù´ÀY¿}|Nêêâ˜•3RýrJ-:á¼ˆá;î"¾PB1µ´Î±kL |ÅfQ‡®ixÞíu—4ø,¹‘"ÁçA^rÓ\þbFÒÓbn“Ó•©bà‘áˆ<˜áµ)ZpÉ– rËe²éû3Ú³Fdh¹¦×z=X­dê.tTRvô‚‘¬*@™¹ŽAËì‹¼J'ÃðïÊ~ô*ëÇ¿lÌ`Ý ¼Pô‰VFƒeTz¦J1ëèö~»º\Íå¤¹‚9´„™fLIú:1-ÂŠ2¹>›p[ý£!ØfŒ9×Êt+þt6Ô‘I²qbaz®—Ña1uptÝ»ù
+Oôf†(¿âHÒë¹–]wŽVé¥3
+gº×y€óu—Ì%o¤ÿQJÕ«øäÞAåvÍˆKµ°Ü¸rRe
+9Ï\KË·é¬“¸ûªíØ>Þ|¨‡¸7l'¿ñhõYe†ø.BŸ3BVâ…Q‹XÇÛ˜:}úól3¼«¹S¼§AN'›é=sXºÉeŸC³'aÝ“ZŽ²X˜›hÕÕFAžøþìPÁ…[¥Tb×¼êØU¾ùÁÜ Š1qÇW’.ÞPåIªêß=Êq¹^bØÇ9Îüuòá:_ækÌäéå_·³‹dëc0f ßP\â9ÖC•8í°|_jbIŽÉy<¾71ŸS‹t²ÙÇ&›ËzËü–SïÊ3.ÌÁjúq/»Æ?åïñe|«‡Ïé'š#Y²D×•ÝÀ.cF)£[Ê·†2Åó
+_°y$®ˆ*æØŸ,âª¿¤4Ò´k˜`ãP½(•zï*1!ó–BSŒC™¸A|^‚õÚL9dä«FC
+„Iâ‚à{Ü¦g+Œ:°ÃÀ9Jƒ7!–…™#fFŠ›çÊBl¦â*ÿGÿ ´ì~ìÙìý¬ÐJwäì¬ò=åÉJ×¯šCÆó¨¹~¤ý>à‰î;=Ÿé:Ççx/.¢ß…¿ ¿^ù P  

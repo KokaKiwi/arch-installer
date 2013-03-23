@@ -95,11 +95,18 @@ sudo mkdir -p "$ARCH_SYS"/var/{cache/pacman/pkg,lib/pacman} "$ARCH_SYS"/{dev,pro
 mount_init "$ARCH_SYS"
 checkcmd
 
+exit 0
+
 template "$ROOT_DIR/minimal.d" > $ROOT_DIR/archmini_install.sh
 sudo cp $ROOT_DIR/archmini_install.sh $ARCH_MINI/root/archmini_install.sh
 
 sudo chroot "$ARCH_MINI" /bin/bash /root/archmini_install.sh
-rm $ARCH_MINI/root/archmini_install.sh
+sudo rm -rf $ARCH_MINI/root/archmini_install.sh
+
+if $(ask "Return in the Arch Mini shell?") == "yes"; then
+    sudo chroot "$ARCH_MINI" /bin/bash
+fi
+
 umount_init "$ARCH_MINI"
 checkcmd
 
@@ -107,7 +114,12 @@ template "$ROOT_DIR/system.d" > $ROOT_DIR/archsys_install.sh
 sudo cp $ROOT_DIR/archsys_install.sh $ARCH_MINI/root/archsys_install.sh
 
 sudo chroot "$ARCH_SYS" /bin/bash /root/archsys_install.sh
-rm $ARCH_SYS/root/archsys_install.sh
+sudo rm -rf $ARCH_SYS/root/archsys_install.sh
+
+if $(ask "Return in the Arch System shell?") == "yes"; then
+    sudo chroot "$ARCH_SYS" /bin/bash
+fi
+
 umount_init "$ARCH_SYS"
 checkcmd
 
