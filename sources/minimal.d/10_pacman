@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cat <<EOF
+echo "Install base packages..."
+pacman -r /mnt --cachedir /mnt/var/cache/pacman/pkg -Sy base syslinux
+EOF

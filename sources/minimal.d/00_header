@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cat <<EOF
+echo "Installing some packages..."
+EOF
