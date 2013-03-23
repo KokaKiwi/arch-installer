@@ -74,13 +74,17 @@ cd "$ARCH_MINI"
 
 echo "Downloading minimal system file..."
 download "http://mir.archlinux.fr/~tuxce/chroot/archlinux.chroot.$ARCHI.tgz"
+checkcmd
 tar -zxf "archlinux.chroot.$ARCHI.tgz"
+checkcmd
 rm -rf archlinux.chroot.$ARCHI.tgz
 cd "$INSTALL_DIR"
 
 echo "Installing minimal system..."
 sudo cp /etc/resolv.conf "$ARCH_MINI/etc/resolv.conf"
+checkcmd
 mount_init "$ARCH_MINI"
+checkcmd
 
 if [[ "$use_device" == "yes" ]]; then
     echo "Mounting install device..."
@@ -89,6 +93,7 @@ fi
 
 sudo mkdir -p "$ARCH_SYS"/var/{cache/pacman/pkg,lib/pacman} "$ARCH_SYS"/{dev,proc,sys,run,tmp,etc,boot,root}
 mount_init "$ARCH_SYS"
+checkcmd
 
 template "$ROOT_DIR/minimal.d" > $ROOT_DIR/archmini_install.sh
 sudo cp $ROOT_DIR/archmini_install.sh $ARCH_MINI/root/archmini_install.sh
@@ -96,6 +101,7 @@ sudo cp $ROOT_DIR/archmini_install.sh $ARCH_MINI/root/archmini_install.sh
 sudo chroot "$ARCH_MINI" /bin/bash /root/archmini_install.sh
 rm $ARCH_MINI/root/archmini_install.sh
 umount_init "$ARCH_MINI"
+checkcmd
 
 template "$ROOT_DIR/system.d" > $ROOT_DIR/archsys_install.sh
 sudo cp $ROOT_DIR/archsys_install.sh $ARCH_MINI/root/archsys_install.sh
@@ -103,4 +109,5 @@ sudo cp $ROOT_DIR/archsys_install.sh $ARCH_MINI/root/archsys_install.sh
 sudo chroot "$ARCH_SYS" /bin/bash /root/archsys_install.sh
 rm $ARCH_SYS/root/archsys_install.sh
 umount_init "$ARCH_SYS"
+checkcmd
 

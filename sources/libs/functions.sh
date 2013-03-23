@@ -15,6 +15,12 @@ prompt_dir() {
     echo "$dir"
 }
 
+checkcmd() {
+    if [ $? -gt 0 ]; then
+        exit 1
+    fi
+}
+
 ask() {
     QUESTION="$1"
     DEFAULT="$2"
