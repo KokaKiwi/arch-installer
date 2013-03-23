@@ -100,7 +100,7 @@ init () {
     START_WATCH=""
 }
 
-function defined {
+ defined {
     [[ ${!1-X} == ${!1-Y} ]]
 }
 
@@ -108,7 +108,7 @@ function defined {
 # returns 0 if a variable is defined (set) and value's length > 0
 # returns 1 otherwise
 #
-function has_value {
+ has_value {
     if defined $1; then
         if [[ -n ${!1} ]]; then
             return 0
@@ -121,7 +121,7 @@ function has_value {
 # returns 0 if a directory exists
 # returns 1 otherwise
 #
-function directory_exists {
+ directory_exists {
     if [[ -d "$1" ]]; then
         return 0
     fi
@@ -132,7 +132,7 @@ function directory_exists {
 # returns 0 if a (regular) file exists
 # returns 1 otherwise
 #
-function file_exists {
+ file_exists {
     if [[ -f "$1" ]]; then
         return 0
     fi
@@ -142,27 +142,27 @@ function file_exists {
 #
 # returns lowercase string
 #
-function tolower {
+ tolower {
     echo "$1" | tr '[:upper:]' '[:lower:]'
 }
 
 #
 # returns uppercase string
 #
-function toupper {
+ toupper {
     echo "$1" | tr '[:lower:]' '[:upper:]'
 }
 
 #
 # Only returns the first part of a string, delimited by tabs or spaces
 #
-function trim {
+ trim {
     echo $1
 }
 
 #
-# Dummy function to provide usage instructions.
-# Override this function if required.
+# Dummy  to provide usage instructions.
+# Override this  if required.
 #
 show_usage () {
    
@@ -202,7 +202,7 @@ log2syslog () {
 }
 
 #
-# This function writes messages to a log file and/or syslog
+# This  writes messages to a log file and/or syslog
 # The only argument is a message that has to be logged.
 # 
 
@@ -239,8 +239,8 @@ log () {
 
 
 #
-# This function basically replaces the 'echo' function in bash scripts.
-# The added functionality over echo is logging and using colors. 
+# This  basically replaces the 'echo'  in bash scripts.
+# The added ality over echo is logging and using colors. 
 #
 # The first argument is the string / message that must be displayed.
 # The second argument is the text color.
@@ -292,7 +292,7 @@ log_status () {
 
 
 #
-# For every status message, a short hand log function is available.
+# For every status message, a short hand log  is available.
 #
 
 log_emergency () {
@@ -382,7 +382,7 @@ log_passed () {
 }
 
 #
-# This function echos a message 
+# This  echos a message 
 # and displays the status at the end of the line.
 #
 # It can be used to create status messages other
@@ -404,11 +404,11 @@ msg_status () {
 }
 
 #
-# The following functions are shorthand for 
+# The following s are shorthand for 
 # msg_status "a message" OK 
 # msg_status "another message" FAIL
 #
-# Same for log functions.
+# Same for log s.
 #
 
 
@@ -512,9 +512,9 @@ check_status () {
 }
 
 #
-# Private function
+# Private 
 #
-# This is a function that just positions
+# This is a  that just positions
 # the cursor one row up and to the right.
 # It then prints a message with specified
 # Color
@@ -529,7 +529,7 @@ raw_status () {
     STATUS="$1"
     COLOR="$2"
 
-    function position_cursor () {
+     position_cursor () {
 
         # let RES_COL=`tput cols`-12
         let RES_COL=80-12
@@ -548,7 +548,7 @@ raw_status () {
 }
 
 #
-# This function converts a status message to a particular color.
+# This  converts a status message to a particular color.
 #
 display_status () {
 
@@ -639,8 +639,8 @@ bail () {
 }
 
 #
-# This function executes a command provided as a parameter
-# The function then displays if the command succeeded or not.
+# This  executes a command provided as a parameter
+# The  then displays if the command succeeded or not.
 #
 cmd () {
 
@@ -670,7 +670,7 @@ cmd () {
 }
 
 #
-# These functions can be used for timing how long (a) command(s) take to
+# These s can be used for timing how long (a) command(s) take to
 # execute.
 #
 now () {
@@ -707,7 +707,7 @@ stop_watch () {
 # Prints an error message ($2) to stderr and exits with the return code ($1).
 # The message is also logged.
 #
-function die {
+ die {
     local -r err_code="$1"
     local -r err_msg="$2"
     local -r err_caller="${3:-$(caller 0)}"
@@ -716,7 +716,7 @@ function die {
     msg_fail "ERROR: At line $err_caller"
     msg_fail "ERROR: Error code = $err_code"
     exit "$err_code"
-} >&2 # function writes to stderr
+} >&2 #  writes to stderr
 
 #
 # Check if a return code ($1) indicates an error (i.e. >0) and prints an error
@@ -725,7 +725,7 @@ function die {
 #
 # Die if error code is false.
 #
-function die_if_false {
+ die_if_false {
     local -r err_code=$1
     local -r err_msg=$2
     local -r err_caller=$(caller 0)
@@ -734,12 +734,12 @@ function die_if_false {
     then
         die $err_code "$err_msg" "$err_caller"
     fi
-} >&2 # function writes to stderr
+} >&2 #  writes to stderr
 
 #
 # Dies when error code is true
 #
-function die_if_true {
+ die_if_true {
     local -r err_code=$1
     local -r err_msg=$2
     local -r err_caller=$(caller 0)
@@ -748,7 +748,7 @@ function die_if_true {
     then
         die $err_code "$err_msg" "$err_caller"
     fi
-} >&2 # function writes to stderr
+} >&2 #  writes to stderr
 
 
 # private: don't use
@@ -820,7 +820,7 @@ array_print () {
 #
 # Replace some text inside a string.
 #
-function str_replace () {
+ str_replace () {
     local ORIG="$1"
     local DEST="$2"
     local DATA="$3"
@@ -898,7 +898,7 @@ stack_pop () {
 # arg2 = new string that replaces matched string
 # arg3 = file to operate on.
 #
-function str_replace_in_file () {
+ str_replace_in_file () {
     local ORIG="$1"
     local DEST="$2"
     local FILE="$3"
