@@ -37,13 +37,6 @@ ask() {
     esac
 }
 
-checkcmd() {
-    if [ $? -gt 0 ]; then
-        display_status ERROR
-        exit 1
-    fi
-}
-
 package() {
     tar -czf $*
 }
